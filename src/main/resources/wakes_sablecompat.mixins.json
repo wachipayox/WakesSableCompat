@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.wachi.wakes_sablecompat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "wakes.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "minecraft.render.LightTextureMixin",
+    "sable.ClientSublevelMixin",
+    "wakes.WakeSpawnerMixin",
+    "wakes.simulation.BrickMixin",
+    "wakes.simulation.WakeHandlerMixin",
+    "wakes.simulation.WakeNodeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
